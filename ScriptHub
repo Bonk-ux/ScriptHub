@@ -34,10 +34,10 @@ local MAX_SPEED = 150
 local previousSpeed = speed
 local isSpeedToggled = false
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Bonk-ux/BonkAim/refs/heads/main/BA"))()
-
 local timechangerEnabled = true
 local time = 12
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Bonk-ux/BonkAim/refs/heads/main/BA"))()
 
 -- ATV Look Restriction Bypass
 local trident = { gc = { camera = nil } }
