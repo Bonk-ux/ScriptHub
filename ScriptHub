@@ -37,6 +37,8 @@ local isSpeedToggled = false
 local timechangerEnabled = true
 local time = 12
 
+sethiddenproperty(workspace.Terrain, "Decoration", not bool)
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Bonk-ux/BonkAim/refs/heads/main/BA"))()
 
 -- ATV Look Restriction Bypass
